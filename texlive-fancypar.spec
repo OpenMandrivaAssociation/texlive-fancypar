@@ -1,3 +1,9 @@
+# revision 18018
+# category Package
+# catalog-ctan /macros/latex/contrib/fancypar
+# catalog-date 2010-04-29 12:40:52 +0200
+# catalog-license lppl1.3
+# catalog-version 1.1
 Name:		texlive-fancypar
 Version:	1.1
 Release:	1
@@ -48,6 +54,7 @@ include displayed mathematics.
 #- source
 %doc %{_texmfdistdir}/source/latex/fancypar/fancypar.dtx
 %doc %{_texmfdistdir}/source/latex/fancypar/fancypar.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -58,3 +65,5 @@ include displayed mathematics.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
