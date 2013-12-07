@@ -6,7 +6,7 @@
 # catalog-version 1.1
 Name:		texlive-fancypar
 Version:	1.1
-Release:	4
+Release:	5
 Summary:	Decoration of individual paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancypar
