@@ -5,8 +5,8 @@
 # catalog-license lppl1.3
 # catalog-version 1.1
 Name:		texlive-fancypar
-Version:	1.1
-Release:	11
+Version:	1.2
+Release:	1
 Summary:	Decoration of individual paragraphs
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancypar
