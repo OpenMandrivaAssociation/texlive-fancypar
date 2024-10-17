@@ -3,7 +3,7 @@ Version:	58895
 Release:	2
 Summary:	Decoration of individual paragraphs
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/fancypar
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/fancypar
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancypar.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/fancypar.doc.r%{version}.tar.xz
